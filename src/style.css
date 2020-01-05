@@ -102,6 +102,8 @@ h2 {
 .dev-process img {
     width: 100%;
     max-width: 450px;
+    display: block;
+    margin: 0 auto;
 }
 .dev-process .info-text .number {
     font-size: 16rem;
