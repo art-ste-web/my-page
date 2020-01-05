@@ -38,6 +38,26 @@ p {
     background-color: #DEDDDD;
     justify-content: center;
 }
+.about .about-header {
+    justify-content: center;
+} 
+.about .about-header h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    margin: 1rem;
+    position: relative;
+    z-index: 1;
+}
+.about .about-header h1::after {
+    content: "";
+    height: 10px;
+    position: absolute;
+    background-color: #F3C10F;
+    width: 100%;
+    bottom: 5px;
+    left: 0;
+    z-index: -1;
+}
 .about img {
     border-radius: 50%;
        
@@ -47,4 +67,7 @@ p {
     justify-content: center;
     align-items: center;
     padding: 2rem;
+}
+.about .about-text {
+    font-size: 1.2rem;
 }
