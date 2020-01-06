@@ -2,8 +2,13 @@
 /*font-family: 'Roboto Slab', serif;
 font-family: 'Rubik', sans-serif;
 */
+/*
 body {
    min-width: 360px;
+}
+*/
+nav, .container, .container-fluid {
+    min-width: 360px;
 }
 p {
     font-family: 'Rubik', sans-serif;
