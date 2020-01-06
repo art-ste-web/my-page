@@ -36,6 +36,7 @@ h2 {
 .navbar {
     background-color: rgba(255, 255, 255, .9);
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
+    padding: 10px 15px;
 }
 .navbar .nav-item {
     font-size: 1.2rem;
@@ -113,7 +114,7 @@ h2 {
     width: 100%;
     max-width: 410px;
     display: block;
-    margin: 2rem auto;
+    margin: 0 auto 3rem auto;
 }
 .dev-process .info-text .number {
     font-size: 16rem;
