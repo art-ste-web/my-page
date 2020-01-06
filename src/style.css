@@ -1,4 +1,6 @@
 
+
+
 /*font-family: 'Roboto Slab', serif;
 font-family: 'Rubik', sans-serif;
 */
@@ -64,6 +66,7 @@ h2 {
     font-family: 'Roboto Slab', serif;
     font-weight: 500;
     color: #121212;
+    font-size: 2rem;
 }
 .first-screen .jumbotron p.lead {
     color: #444444;
@@ -131,4 +134,9 @@ h2 {
     left: 30%;
     margin-top: -20%;
     z-index: -1;
+}
+@media (min-width: 992px)  { 
+    .first-screen .jumbotron h1 {
+        font-size: 4rem;
+    }
 }
