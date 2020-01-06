@@ -159,7 +159,7 @@ h2 {
 .blog .category .ui {
     background-color: #02B429;
 }
-.blog .category .css .first-line {
+.blog .category div .first-line {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -169,7 +169,7 @@ h2 {
     font-weight: 500;
     margin-right: 1rem;
 }
-.blog .category .css .second-line {
+.blog .category div .second-line {
     position: absolute;
     right: 0;
     bottom: -4rem;
