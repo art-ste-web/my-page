@@ -197,7 +197,7 @@ h2 {
     transition: all .2s;
 }
 .my-contacts .contact-links {
-    justify-content: center;
+    justify-content: space-around;
     align-items: flex-start;
 }
 .my-contacts .contact-links .contact-link-wrapper a {
@@ -205,10 +205,17 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
+    color: #444444;
+}
+
+.my-contacts .contact-links .contact-link-wrapper a p {
+    text-align: center;
+    margin-top: 1rem;
 }
 .my-contacts .contact-links .contact-link-wrapper .contact-link-icon {
-    width: 6rem;
-    height: 6rem;
+    width: 5rem;
+    height: 5rem;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -217,11 +224,11 @@ h2 {
     
 }
 .my-contacts .contact-links .contact-link-wrapper .contact-link-icon img {
-    height: 3.6rem;
+    height: 3rem;
 }
 .my-contacts .contact-links .contact-link-wrapper .phone {
     background-color: #02B429;
-    padding-left: .8rem;
+    padding-left: .5rem;
 }
 .my-contacts .contact-links .contact-link-wrapper .viber {
     background-color: #583EB5;
@@ -229,7 +236,12 @@ h2 {
 .my-contacts .contact-links .contact-link-wrapper .telegram {
     background-color: #33ABE0;
 }
-
+.my-contacts .contact-links .contact-link-wrapper .whatsapp {
+    background-color: #20CB42;
+}
+.my-contacts .contact-links .contact-link-wrapper .instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
 @media (min-width: 992px)  { 
     .first-screen .jumbotron h1 {
         font-size: 4rem;
