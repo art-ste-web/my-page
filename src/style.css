@@ -223,8 +223,11 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
+    transition: all .2s;
+}
+.my-contacts .contact-links .contact-link-wrapper .contact-link-icon:hover {
+    transform: scale(1.1);
+    transition: all .2s;
 }
 .my-contacts .contact-links .contact-link-wrapper .contact-link-icon img {
     height: 3rem;
@@ -245,6 +248,17 @@ h2 {
 .my-contacts .contact-links .contact-link-wrapper .instagram {
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
 }
+.footer {
+    background-color: #1C1C1C;
+}
+.footer ul {
+    display: flex;
+    
+}
+.footer li {
+    color: #DEDDDD;
+}
+
 @media (min-width: 992px)  { 
     .first-screen .jumbotron h1 {
         font-size: 4rem;
