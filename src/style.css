@@ -225,9 +225,10 @@ h2 {
 }
 .my-contacts .contact-links .contact-link-wrapper .viber {
     background-color: #583EB5;
-    
 }
-
+.my-contacts .contact-links .contact-link-wrapper .telegram {
+    background-color: #33ABE0;
+}
 
 @media (min-width: 992px)  { 
     .first-screen .jumbotron h1 {
