@@ -207,11 +207,13 @@ h2 {
     align-items: center;
     text-decoration: none;
     color: #444444;
+    margin-top: 1rem;
 }
 
 .my-contacts .contact-links .contact-link-wrapper a p {
     text-align: center;
-    margin-top: 1rem;
+    margin-top: .7rem;
+    font-family: 'Rubik', sans-serif;
 }
 .my-contacts .contact-links .contact-link-wrapper .contact-link-icon {
     width: 5rem;
