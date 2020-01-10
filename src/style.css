@@ -51,6 +51,9 @@ h2 {
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
    
 }
+.navbar-brand img {
+    height: 2.6rem;
+}
 .navbar .nav-item {
     font-size: 1.2rem;
 }
@@ -275,6 +278,11 @@ h2 {
     color: #DEDDDD;
     list-style-type: none;
     margin-left: 1rem;
+    transition: all 0.2s;
+}
+.footer li:hover {
+    border-bottom: 2px solid #fff;
+    transition: all 0.2s;
 }
 .footer img {
     margin: 1rem;
