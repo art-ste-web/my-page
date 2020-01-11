@@ -301,3 +301,23 @@ h2 {
         margin-bottom: 0;
     }
 }
+
+
+/*******project styles********/
+.pr-img {
+    cursor: zoom-in;
+}
+.modal-img {
+    width: 100%;
+}
+.my-close-btn {
+    position: fixed;
+    top: 1rem;
+    right: 2rem;
+    z-index: 1000;
+    
+}
+.my-close-btn > span {
+    color: #fff;
+    font-size: 4rem;
+}
