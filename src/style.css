@@ -321,4 +321,9 @@ h2 {
 .my-close-btn > span {
     color: #fff;
     font-size: 4rem;
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 1rem;
+    line-height: 1;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
 }
