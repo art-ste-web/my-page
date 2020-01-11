@@ -113,7 +113,8 @@ h2 {
 .portfolio .carousel {
     width: 100%;
 }
-.portfolio button {
+.portfolio a[href="projects.html"] {
+    display: block;
     margin: 2rem auto 3rem auto;
 }
 .dev-process .info-text {
