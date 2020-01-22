@@ -1,19 +1,18 @@
-const showMockupBtn = document.querySelectorAll(".show-mockup-btn");
-const mockupImg = document.querySelectorAll(".mockup-img");
-showMockupBtn.forEach(element => {
-    element.addEventListener("click", function() {
-        mockupImg.forEach(element =>{
-            if (element.style.display === "block") {
-                element.style.display = "none";
-            }
-            else {
-                element.style.display = "block";
-            }
-        })
-        
-    })
-});
-
-
-console.log(showMockupBtn);
-console.log(mockupImg);
+//toggle accord icons
+$("#accordion").on("hide.bs.collapse show.bs.collapse", e => {
+    $(e.target)
+      .prev()
+      .find("i:last-child")
+      .toggleClass("fa-minus fa-plus");
+  });
+//animate accord
+  $("#accordion").on("shown.bs.collapse", e => {
+    $("html, body").animate(
+      {
+        scrollTop: $(e.target)
+          .prev()
+          .offset().top
+      },
+      400
+    );
+  });
