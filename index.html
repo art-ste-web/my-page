@@ -15,7 +15,7 @@
 <body>
     <!--navbar-->
     <nav class="navbar sticky-top navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#"><img src="src/img/logo.png"></a>
+        <a class="navbar-brand" href="#home" data-value="home"><img  src="src/img/logo.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -23,14 +23,14 @@
           <div class="navbar-nav">
             <a class="nav-item nav-link" href="#about" data-value="about">Обо мне <span class="sr-only">(current)</span></a>
             <a class="nav-item nav-link" href="#portfolio" data-value="portfolio">Портфолио</a>
-            <a class="nav-item nav-link" href="#">Процесс разработки</a>
-            <a class="nav-item nav-link" href="#">Блог</a>
-            <a class="nav-item nav-link" href="#">Контакты</a>
+            <a class="nav-item nav-link" href="#dev_process" data-value="dev_process">Процесс разработки</a>
+            <a class="nav-item nav-link" href="#blog" data-value="blog">Блог</a>
+            <a class="nav-item nav-link" href="#contacts" data-value="contacts">Контакты</a>
           </div>
         </div>
     </nav>
     <!--first screen-->
-    <div class="container first-screen">
+    <div id="home" class="container first-screen">
         <div class="row">
             <div class="jumbotron col-lg-10 col-xl-10">
                 <h1 class="display-4">Дизайн и разработка сайтов
@@ -115,7 +115,7 @@
         </div>
     </div>
     <!--dev process block-->
-    <div class="container dev-process">
+    <div id="dev_process" class="container dev-process">
         <div class="row">
             <h1>Процесс разработки</h1>
         </div>
@@ -198,7 +198,7 @@
         </div>
     </div>
     <!--blog block-->
-    <div class="container blog">
+    <div id="blog" class="container blog">
         <div class="row">
             <h1>Мой блог</h1>
         </div>
@@ -230,7 +230,7 @@
         </div>
     </div>
     <!--contacts block-->
-    <div class="container my-contacts">
+    <div id="contacts" class="container my-contacts">
         <div class="row">
             <h1>Контакты</h1>
         </div>
@@ -293,11 +293,11 @@
             <ul>
                 <a class="nav-item nav-link" href="#about" data-value="about"><li>Обо мне</li></a>
                 <a class="nav-item nav-link" href="#portfolio" data-value="portfolio"><li>Портфолио</li></a>
-                <a class="nav-item nav-link" href="#"><li>Процесс разработки</li></a>
-                <a class="nav-item nav-link" href="#"><li>Блог</li></a>
-                <a class="nav-item nav-link" href="#"><li>Контакты</li></a>
+                <a class="nav-item nav-link" href="#dev_process" data-value="dev_process"><li>Процесс разработки</li></a>
+                <a class="nav-item nav-link" href="#blog" data-value="blog"><li>Блог</li></a>
+                <a class="nav-item nav-link" href="#contacts" data-value="contacts"><li>Контакты</li></a>
             </ul>
-            <a href="#"><img src="src/img/icons/up-arrow.svg" alt="в начало"></a>
+            <a href="#home" data-value="home"><img src="src/img/icons/up-arrow.svg" alt="в начало"></a>
         </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
