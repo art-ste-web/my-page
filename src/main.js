@@ -18,7 +18,7 @@ $("#projects").on("hide.bs.collapse show.bs.collapse", e => {
   });
 
   /*scroll menu */
-$("a").click(function(){
+$(".navbar a").click(function(){
     $("body,html").animate({
       scrollTop:$("#" + $(this).data('value')).offset().top
     },1000)
