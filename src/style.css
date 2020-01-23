@@ -347,6 +347,9 @@ h2 {
     transition: 0.2s;
     display: block;
 }
+#printDes img {
+    box-shadow: none;
+}
 
 
 /*accordeon styles*/
