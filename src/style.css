@@ -326,7 +326,7 @@ h2 {
     position: relative;
     margin: 3rem 2rem 3rem 2rem;
 }
-h2::after {
+.projects .row h2::after {
     content: "";
     height: 10px;
     position: absolute;
@@ -387,7 +387,7 @@ h2::after {
         padding: 1rem;
         margin-bottom: 0;
     }
-    h2::after {
+    .projects .row h2::after {
         content: "";
         height: 101%;
         position: absolute;
