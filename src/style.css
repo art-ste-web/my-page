@@ -337,17 +337,21 @@ h2 {
     font-size: 1.6rem;
     font-family: var(--main-font);
     font-weight: 500;
-    color: #444444;
-    margin: 3rem auto 3rem auto;
+    color: #333;
+    position: relative;
+    margin: 3rem 2rem 3rem 2rem;
 }
-.projects .row h2 span {
-    background-size:  100% 30%;
-    background-repeat: repeat-x;
-    background-position: left 0% bottom -10%;
+h2::after {
+    content: "";
+    height: 10px;
+    position: absolute;
+    background-color: rgba(40, 167, 69, .3);
+    width: 101%;
+    bottom: 2px;
+    left: -0.5%;
+    z-index: -1;
 }
-.projects .row h2 span.tapered {
-    background-image: linear-gradient(181deg, rgba(40, 167, 69, .4) 5%, rgba(40, 167, 69, .6) 50%, transparent 54%, transparent 100%);
-}
+
 .projects .mockup-img {
     box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.15), -4px -4px 5px rgba(0, 0, 0, 0.15);
     width: 80%;
