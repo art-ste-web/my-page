@@ -403,4 +403,7 @@ h2 {
         left: -1%;
         z-index: -1;
     }
+    .first-screen .jumbotron h1 .txt-rotate {
+        font-size: 1.6rem;
+    }
 }
