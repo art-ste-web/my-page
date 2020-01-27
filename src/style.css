@@ -300,21 +300,6 @@ h2 {
        max-width: 1200px;
    }
 
-@media (min-width: 992px)  { 
-    .first-screen .jumbotron h1 {
-        font-size: 4rem;
-    }
-    
-}
-@media (max-width: 860px)  { 
-    .footer ul {
-        display: flex;
-        flex-direction: column;
-        padding: 1rem;
-        margin-bottom: 0;
-    }
-}
-
 
 
 /*******project styles********/
@@ -388,3 +373,28 @@ h2::after {
   .card-header .btn-link:focus {
     text-decoration: none;
   }
+
+  @media (min-width: 992px)  { 
+    .first-screen .jumbotron h1 {
+        font-size: 4rem;
+    }
+    
+}
+@media (max-width: 860px)  { 
+    .footer ul {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        margin-bottom: 0;
+    }
+    h2::after {
+        content: "";
+        height: 101%;
+        position: absolute;
+        background-color: rgba(40, 167, 69, .3);
+        width: 101%;
+        bottom: -1%;
+        left: -1%;
+        z-index: -1;
+    }
+}
