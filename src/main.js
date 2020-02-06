@@ -24,7 +24,10 @@ $("a").click(function(){
     },1000)
    
   })
-
+//image lazy load
+$(function() {
+  $('.lazy').Lazy();
+});
 
 //type header script
   var TxtRotate = function(el, toRotate, period) {
