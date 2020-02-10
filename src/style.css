@@ -158,6 +158,9 @@ h2 {
     position: relative;
     margin-bottom: 4rem;
 } 
+.blog .category a {
+    color: #000;
+}
 .blog .category .css{
     background-color: #1B72BA;
 }
